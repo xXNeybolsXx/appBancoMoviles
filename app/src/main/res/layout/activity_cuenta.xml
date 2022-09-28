@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cuenta"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tvusuarioc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido Administrador"
+        tools:ignore="MissingConstraints"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnagregarC"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:text="Agregar"
+            android:textAllCaps="false"
+            android:backgroundTint="#3F51B5"
+            />
+
+    </LinearLayout>/>
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnactualizarC"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:text="Actualizar"
+            android:textAllCaps="false"
+            android:backgroundTint="#3F51B5"
+            />
+
+    </LinearLayout>/>
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btneliminarC"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:text="Eliminar"
+            android:textAllCaps="false"
+            android:backgroundTint="#3F51B5"
+            />
+
+    </LinearLayout>/>
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnbuscarC"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:text="Busca"
+            android:textAllCaps="false"
+            android:backgroundTint="#3F51B5"
+            />
+
+    </LinearLayout>/>
+
+
+
+
+
+
+
+</LinearLayout>
